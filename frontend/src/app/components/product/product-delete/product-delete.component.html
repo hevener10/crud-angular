@@ -1,1 +1,23 @@
-<p>product-delete works!</p>
+<mat-card>
+    <mat-card-title class="title">Deletar Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input disabled="disabled" matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input disabled="disabled" matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+        <mat-form-field>
+            <textarea disabled="disabled" matInput placeholder="Descrição" [(ngModel)]="product.description"
+                name="description"></textarea>
+        </mat-form-field>
+
+    </form>
+    <button mat-raised-button (click)="deleteProduct()" class="delete">
+        Deletar
+    </button>
+
+    <button mat-raised-button (click)="cancelar()">
+        Cancelar
+    </button>
+</mat-card>

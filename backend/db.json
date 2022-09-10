@@ -1,45 +1,10 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Product 1",
-      "price": 100,
-      "description": "This is product 1"
-    },
-    {
-      "id": 2,
-      "name": "Product 2",
-      "price": 200,
-      "description": "This is product 2"
-    },
-    {
-      "id": 3,
-      "name": "Product 3",
-      "price": 300,
-      "description": "This is product 3"
-    },
-    {
-      "id": 4,
-      "name": "Product 4",
-      "price": 300,
-      "description": "This is product 4"
-    },
-    {
-      "name": "Geladeira",
-      "price": "1913.99",
-      "description": "geladeira frost",
-      "id": 5
-    },
-    {
-      "name": "Veio do Formulario",
-      "price": "199",
-      "id": 6
-    },
-    {
       "name": "Ventilador",
-      "price": "235.24",
-      "description": "descrição gigante do texto",
-      "id": 7
+      "price": "123",
+      "description": "ventilador venta muito 2\n",
+      "id": 1
     }
   ]
 }

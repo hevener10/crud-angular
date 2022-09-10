@@ -29,6 +29,11 @@
       "price": "1913.99",
       "description": "geladeira frost",
       "id": 5
+    },
+    {
+      "name": "Veio do Formulario",
+      "price": "199",
+      "id": 6
     }
   ]
 }

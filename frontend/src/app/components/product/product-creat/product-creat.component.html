@@ -7,6 +7,10 @@
         <mat-form-field>
             <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
         </mat-form-field>
+        <mat-form-field>
+            <textarea matInput placeholder="Descrição" [(ngModel)]="product.description" name="description"></textarea>
+        </mat-form-field>
+
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
         Salvar

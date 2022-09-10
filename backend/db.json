@@ -34,6 +34,12 @@
       "name": "Veio do Formulario",
       "price": "199",
       "id": 6
+    },
+    {
+      "name": "Ventilador",
+      "price": "235.24",
+      "description": "descrição gigante do texto",
+      "id": 7
     }
   ]
 }
